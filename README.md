@@ -1,3 +1,5 @@
 # Project Overview
 
-Write the purpose or goal of the project here. - Nalin
+## Slave Labor (Autonomous Cargo Drone System)
+
+This repository contains the architecture, control algorithms, and edge computing models for our autonomous cargo drone designed for secure and resilient food delivery. The system features a hexacopter configuration built on a carbon fiber frame, ensuring hardware redundancy and stability in urban environments. It utilizes an NVIDIA Jetson companion computer running ROS, integrating stereo cameras for V-SLAM and YOLO-based real-time obstacle avoidance, alongside an RTK-GNSS module for centimeter-level navigation accuracy. Delivery is executed via an automated tethering and winch mechanism equipped with a smart release hook, allowing the drone to remain safely at an altitude of 7-8 meters while dispensing a 2-4 kg payload. Future developments will focus on optimizing the flight controller's PID loops for better wind resistance, integrating a downward-facing LiDAR for dynamic terrain mapping during payload release, and upgrading the telemetry module to 5G for seamless BVLOS (Beyond Visual Line of Sight) fleet management integration.
