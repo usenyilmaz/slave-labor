@@ -1,5 +1,7 @@
 # Project Overview
 
+**[Google Drive link for sharing resources](https://drive.google.com/drive/folders/1cFqy8IaK1nmGxkOz4OtdkO7hxMaOhYHF)** 
+
 ## Slave Labor (Autonomous Cargo Drone System)
 
 This repository contains the architecture, control algorithms, and edge computing models for our autonomous cargo drone designed for secure and resilient food delivery. The system features a hexacopter (maybe quadcopter for vol 1) configuration built on a carbon fiber frame, ensuring hardware redundancy (in the future) and stability in urban environments. It utilizes an NVIDIA Jetson companion computer running ROS (definitely yes), integrating stereo cameras for V-SLAM (pretty daamn hard at least not in vol 1) and YOLO-based real-time obstacle avoidance (detectance sure but avoidance maybe in the future), alongside an RTK-GNSS module for centimeter-level navigation accuracy (money). Delivery is executed via an automated tethering and winch mechanism equipped with a smart release hook (VERY COOL), allowing the drone to remain safely at an altitude of 7-8 meters while dispensing a 2-4 kg payload (for vol 1 maybe 0.5 - 1 kg?). Future developments will focus on optimizing the flight controller's PID loops for better wind resistance, integrating a downward-facing LiDAR for dynamic terrain mapping during payload release (VERY COOL), and upgrading the telemetry module to 5G for seamless BVLOS (Beyond Visual Line of Sight) fleet management integration (thats kiiiinda hard).
