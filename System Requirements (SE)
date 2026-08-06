@@ -1,0 +1,20 @@
+Decide on the system requirements. Some questions that came to my mind:
+
+  - Payload weight: Typical: _____   and Max: ______
+  - Flight time: Typical: _____   and Max: ______
+  - Range: Typical: _____   and Max: ______
+  - Autonomous or Manual? Possibly Both?
+  - Maximum Dimension e.g. Weight? Lenght? etc.
+  - Our budget?
+    -> Considering the RF system we'll use by external sources and the camera,
+       sensors, motors, battery, and everything else...
+  - The rest are more technical requirements we should address as we start the development
+
+--------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
