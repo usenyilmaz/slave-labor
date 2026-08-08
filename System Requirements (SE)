@@ -12,7 +12,10 @@ Decide on the system requirements. Some questions that came to my mind:
 
 --------------------------------------------------------------------------------------------
 
-
+  - The most simple and starting point I believe should be the skeleton modules, as I pointed out in the drawio board, I think we should start with the simple motor logic then evolve into IMU while also developing the simple possible navigation modules.
+    Ural-> the Jetson and camera systems to start the developments.    
+    Kaan-> make the motors turn, then with Arda start the IMU and physical motor response.
+   Altan -> develop ideas on the drone layout and decide on materials
 
 
 
