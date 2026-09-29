@@ -16,7 +16,6 @@ sensors_event_t hmcData;
 /*------------------------------------------------------------*/
 void SensorInit() {
   Serial.begin(115200);//Seriaal, ESP8266 standardized
-  Wire.begin(); // I2C initiation
 
   //Initialize MPU6050
   mpu.initialize();
